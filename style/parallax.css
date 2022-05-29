@@ -1,0 +1,28 @@
+.parallax {
+    background-image: url(../assets/picture/big-picture-sweet.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 77vmin;
+    width: 100%;
+}
+
+.logo {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logo svg {
+    width: 5vw;
+}
+
+.logo h1 {
+    font-family: "Cookie";
+    font-size: 12.6vw;
+    font-weight: 400;
+    line-height: 9rem;
+}
