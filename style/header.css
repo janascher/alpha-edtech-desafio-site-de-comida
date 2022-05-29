@@ -1,0 +1,42 @@
+/* General */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header - Menu */
+.menu {
+    background-color: rgb(54,46,38);
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8.22vh;
+}
+
+.menu .item {
+    list-style: none;
+    text-align: center;
+    
+}
+
+.menu .item a {
+    text-decoration: none;
+}
+
+.menu .item p {
+    color: rgb(255, 255, 255);
+    font-family: "Helvetica-W01-Roman";
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 5.3vh;
+    padding: 0 2.5vw;
+}
+
+.menu .item p:hover {
+    color: rgb(218,210,202);
+    transition: color 0.4s ease 0s;
+}
