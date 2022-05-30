@@ -1,0 +1,48 @@
+/* ##### Parallax ##### */
+.parallax:nth-child(4) {
+    background-color: rgb(112, 186, 190);
+    height: 100vmin;
+    overflow: hidden;
+    position: relative;
+}
+
+.parallax:nth-child(4)::before {
+    background: url(../assets/picture/small-picture-black-line.webp) center/auto repeat;
+    content: ' ';
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* ##### Who Does ##### */
+.whoDoes {
+    height: 100vh;
+} 
+
+/* ##### About Title ##### */
+.whoDoes div {
+    z-index: 2;
+}
+
+.whoDoes h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2.05vw;
+    padding-bottom: 9.1vh;
+    text-align: left;
+    height: 2vh;
+    width: 76%;
+}
+
+/* ##### About Paragraph ##### */
+.whoDoes p {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 76%;
+}
+
+/* ##### About Image ##### */
+.whoDoes .image {
+    z-index: 2;
+    width: 100%;
+}

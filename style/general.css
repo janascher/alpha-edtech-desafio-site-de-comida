@@ -1,0 +1,49 @@
+/* ##### General ##### */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ##### Column Container ##### */
+.columnContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+/* ##### Row Container ##### */
+.rowContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 71.7vmax;
+    margin: 0 auto;
+}
+
+/* ##### Flex Container ##### */
+.flexContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ##### Font Helvetica ##### */
+.fontHelvetica {
+    font-family: "Helvetica-W01-Roman"; 
+    font-style: normal;
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+/* ##### Font Proxima ##### */
+.fontProxima {
+    font-family: "Proxima-N-W01-Reg";
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
