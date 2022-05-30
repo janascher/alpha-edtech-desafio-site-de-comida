@@ -1,0 +1,61 @@
+/* Container */
+.textContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    width: 980px;
+    height: 65vh;
+    margin: 0 auto;
+}
+
+/* Title */
+.textContainer h2 {
+    color: rgb(255, 255, 255);
+    font-family: "Proxima-N-W01-Reg";
+    font-style: normal;
+    font-size: 1.83vw;
+    font-weight: bold;
+    line-height: 1.8rem;
+    padding: 0 4.1vw;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+    width: 40%
+}
+
+/* Text */
+.textContainer div {
+    z-index: 2;
+    width: 60%
+}
+
+.textContainer div p {
+    color: rgb(255, 255, 255);
+    font-family: "Helvetica-W01-Roman"; 
+    font-style: normal;
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 1.2rem;
+    padding: 0 1.5vw;
+    text-align: left;
+}
+
+/* Parallax */
+.parallax:nth-child(2) {
+    background-color: rgb(231, 133, 133);
+    overflow: hidden;
+    position: relative;
+}
+
+.parallax:nth-child(2)::before {
+    background-image: url(../assets/picture/small-picture-pink-line.webp);
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: center center;
+    content: ' ';
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

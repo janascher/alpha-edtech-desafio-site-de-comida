@@ -1,0 +1,92 @@
+footer {
+    background-color: rgb(54,46,38);
+}
+
+.footerInfoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    width: 850px;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.footerInfo,
+.footerForm {
+    display: flex;
+    flex-direction: column;
+    padding-top: 9vh;
+    padding-bottom: 1vh;
+    height: 100%;
+}
+
+.footerInfo {
+    text-align: center;
+    width: 40%;
+}
+
+.footerInfo h2 {
+    color: rgb(255, 255, 255);
+    font-family: "Proxima-N-W01-Reg";
+    font-style: normal;
+    font-size: 2.05vw;
+    font-weight: bold;
+    padding: 0 9.1vh;
+    text-transform: uppercase;
+}
+
+.footerInfo .contact {
+    padding: 6vh 0;
+}
+
+.footerInfo div p,
+.footerForm input::placeholder,
+.footerForm textarea::placeholder,
+.footerForm button {
+    color: rgb(255, 255, 255);
+    font-family: "Helvetica-W01-Roman"; 
+    font-style: normal;
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+.footerForm {
+    gap: 1vh;
+    width: 33vw;
+}
+
+.footerForm input {
+    border-radius: 0;
+    height: 5vh;
+}
+
+.footerForm input,
+.footerForm textarea {
+    background-color: rgb(81, 69, 57);
+    border: none;
+}
+
+.footerForm input::placeholder,
+.footerForm textarea::placeholder {
+    padding-left: 1vw;
+}
+
+/* Button */
+.footerForm button {
+    align-self: end;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background: linear-gradient(0deg, rgb(76, 61, 47) 30%, rgb(143, 131, 120) 58%);
+    border: 0.01vw solid rgb(76, 61, 47);
+    box-shadow: 0px 0px 1px rgba(50, 50, 50, 0.75);
+    padding: 2vh 0;
+    width: 7vw;
+}
+
+.footerForm button:hover {
+    background: rgba(143, 131, 120, 0.75);
+    border: 0.01vw solid rgba(143, 131, 120, 0.75);
+    transition: border 0.6s ease 0s, background .6s ease 0s;
+}

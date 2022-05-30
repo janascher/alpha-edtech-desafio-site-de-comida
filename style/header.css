@@ -8,6 +8,11 @@
 /* Header - Menu */
 .menu {
     background-color: rgb(54,46,38);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 .menu ul {
@@ -19,8 +24,7 @@
 
 .menu .item {
     list-style: none;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .menu .item a {
